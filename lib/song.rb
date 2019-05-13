@@ -28,10 +28,7 @@ class Song
   def self.genre_count
     genre_hash = {}
     @@genres.each do |elem|
-      binding.pry
-      genre_hash[elem]=0#=elem.count
-    end
-    genre_hash
+      genre_hash[elem]=0
   end
 
   def artists
