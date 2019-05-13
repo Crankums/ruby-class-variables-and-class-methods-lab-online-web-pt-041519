@@ -24,7 +24,7 @@ class Song
   def self.artist_count
     artists_hash = {}
     @@artists.each do |name|
-      artists_hash[name]=@@artists.count(elem)
+      artists_hash[name]=@@artists.count(name)
     end
     artists_hash
   end
