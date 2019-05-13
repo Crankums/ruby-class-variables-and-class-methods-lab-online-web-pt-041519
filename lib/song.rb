@@ -29,7 +29,7 @@ class Song
     genre_hash = {}
     binding.pry
     @@genres.each do |elem|
-      genre_hash[elem]=#=elem.count
+      genre_hash[elem]=0#=elem.count
     end
     genre_hash
   end
