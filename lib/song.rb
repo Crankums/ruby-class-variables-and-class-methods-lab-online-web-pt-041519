@@ -29,6 +29,7 @@ class Song
       genre_hash[elem]
 
     end
+    genre_hash
   end
 
   def artists
