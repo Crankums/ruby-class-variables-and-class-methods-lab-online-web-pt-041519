@@ -29,6 +29,8 @@ class Song
     genre_hash = {}
     @@genres.each do |elem|
       genre_hash[elem]=0
+    end
+    genre_hash
   end
 
   def artists
