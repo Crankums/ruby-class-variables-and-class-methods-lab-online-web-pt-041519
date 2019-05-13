@@ -19,6 +19,13 @@ class Song
     @@genres
   end
 
+  def genre_count
+    genre_hash = {}
+    @@genres.each do |elem|
+      genre_hash[elem] = elem.count
+    end
+  end
+
   def artists
     @@artists
   end
