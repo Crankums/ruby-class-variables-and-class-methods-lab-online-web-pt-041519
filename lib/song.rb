@@ -26,7 +26,7 @@ class Song
   def self.genre_count
     genre_hash = {}
     @@genres.each do |elem|
-      genre_hash[elem]=elem.count
+      genre_hash[elem]#=elem.count
     end
     genre_hash
   end
